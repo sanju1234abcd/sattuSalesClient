@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './SattuDataEntry.css';
 
 const SattuDataEntry = () => {
-  const baseURL = "http://localhost:8000/api/v1"
+  const baseURL = "https://sattusalesserver.onrender.com"
   const [formData, setFormData] = useState({
     district: '',
     subDivision: '',
