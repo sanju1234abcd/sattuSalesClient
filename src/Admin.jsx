@@ -3,7 +3,7 @@ import { saveAs } from "file-saver";
 import './Admin.css';
 
 function Admin() {
-  const baseURL = "https://sattusalesserver.onrender.com/sattu"
+  const baseURL = "https://sattusalesserver.onrender.com/api/v1/sattu"
   const [isLoading, setIsLoading] = useState(false);
   const [filters, setFilters] = useState({
     district: '',

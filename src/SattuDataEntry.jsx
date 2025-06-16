@@ -107,7 +107,7 @@ const SattuDataEntry = () => {
       };
       console.log(payload)
       // Submit to backend
-      const response = await fetch(`${baseURL}/sattu/new`,{
+      const response = await fetch(`${baseURL}/api/v1/sattu/new`,{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
